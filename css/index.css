@@ -197,14 +197,14 @@ a{
 }
 .tag{
 	margin-left: .23rem;
-	width: .7rem;
+	/*width: .7rem;*/
 	float: left;
 	line-height: .8rem;
 	color: #fa4b4b;
 }
 .watch{
 	background: url(../images/watch.png) no-repeat center center;
-	width: 1.4rem;
+	width: 1.9rem;
 	height: .4rem;
 	float: left;
 	line-height: .8rem;
