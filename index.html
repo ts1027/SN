@@ -5,15 +5,789 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 	<title>苏宁易购</title>
 	<script src="js/base.js"></script>
-	<link rel="stylesheet" href="index.css">
+	<link rel="stylesheet" href="css/swiper.min.css">
+	<link rel="stylesheet" href="css/index.css">
+	<script src="js/jquery.js"></script>
+	<script src="js/swiper.min.js"></script>
 	<script src="js/index.js"></script>
 </head>
 <body>
 <!-- header -->
 <div class="header">
+	<a href="#"></a>
+	<form action="">
+		<input type="text" placeholder="美妆盛宴 饥肤挚爱">
+	</form>
+	<div class="gou"></div>
+</div>
+
+<!-- 轮播 -->
+<div class="lunbo">
+	<div class="swiper-container">
+	    <div class="swiper-wrapper">
+	        <div class="swiper-slide">
+				<img src="images/banner1.jpg" alt="">
+	        </div>
+	        <div class="swiper-slide">
+	        	<img src="images/banner2.jpg" alt="">
+	        </div>
+	        <div class="swiper-slide">
+				<img src="images/banner3.jpg" alt="">
+	        </div>
+	        <div class="swiper-slide">
+	        	<img src="images/banner4.jpg" alt="">
+	        </div>
+	        <div class="swiper-slide">
+	        	<img src="images/banner5.jpg" alt="">
+	        </div>
+	        <div class="swiper-slide">
+	        	<img src="images/banner6.jpg" alt="">
+	        </div>
+	        <div class="swiper-slide">
+	        	<img src="images/banner7.jpg" alt="">
+	        </div>
+	        <div class="swiper-slide">
+	        	<img src="images/banner8.jpg" alt="">
+	        </div>
+	    </div>
+	    <!-- Add Pagination -->
+	    <div class="swiper-pagination btn"></div>
+	</div>
+</div>
+
+<!-- 分类 -->
+<div class="floor-area">
+	<ul>
+		<li>
+			<a href="#">
+				<img src="images/f1.webp" alt="">
+				<div class="title">分类</div>
+			</a>
+		</li>
+		<li>
+			<a href="#">
+				<img src="images/f2.webp" alt="">
+				<div class="title">大聚汇</div>
+			</a>
+		</li>
+		<li>
+			<a href="#">
+				<img src="images/f3.webp" alt="">
+				<div class="title">苏宁超市</div>
+			</a>
+		</li>
+		<li>
+			<a href="#">
+				<img src="images/f4.webp" alt="">
+				<div class="title">红孩子母婴</div>
+			</a>
+		</li>
+		<li>
+			<a href="#">
+				<img src="images/f5.webp" alt="">
+				<div class="title">嗨嗨精选</div>
+			</a>
+		</li>
+		<li>
+			<a href="#">
+				<img src="images/fl6.webp" alt="">
+				<div class="title">我的易购</div>
+			</a>
+		</li>
+		<li>
+			<a href="#">
+				<img src="images/fl7.webp" alt="">
+				<div class="title">赚钱</div>
+			</a>
+		</li>
+		<li>
+			<a href="#">
+				<img src="images/fl8.webp" alt="">
+				<div class="title">领云钻</div>
+			</a>
+		</li>
+		<li>
+			<a href="#">
+				<img src="images/fl9.webp" alt="">
+				<div class="title">门店导购</div>
+			</a>
+		</li>
+		<li>
+			<a href="#">
+				<img src="images/fl10.webp" alt="">
+				<div class="title">客户端下载</div>
+			</a>
+		</li>
+	</ul>
+</div>
+
+<!-- 苏宁头条 -->
+<div class="v5-tt">
+	<div class="title"></div>
+	<div class="line"></div>
+	<div class="msgCon">
+		<div class="msgs">
+			<a href="#">
+				<span><i class="dot"></i>居家除尘工具 只选对的 不买贵的<br></span>
+				<span style="color: #999;"><i class="dot"></i>你不懂的服装色彩搭配秘诀</span>
+			</a>
+		</div>
+	</div>
+</div>
+
+<!-- 掌上抢 -->
+<div class="v5-zsq">
+	<div class="hor-view">
+		<div class="logo"></div>
+		<div class="tag">15点场</div>
+		<div class="watch"></div>
+		<a class="r" href="#">
+			<span>天天秒杀</span>
+			<i class="right"></i>
+		</a>
+	</div>
+	<div class="items">
+		<ul>
+			<li>
+				<a href="#">
+					<img src="images/a1.jpg" alt="">
+					<div class="prices">
+						<span class="gb-price">￥36.
+							<i class="f0">00</i>
+						</span>
+						<del class="tag-price">￥179.00</del>
+						<span class="sale">
+							<i class="f1">2</i>
+							<i class="f3">.0</i>
+							<i class="f4">折</i></span>
+					</div>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<img src="images/zs2.webp" alt="">
+					<div class="prices">
+						<span class="gb-price">￥29.
+							<i class="f0">00</i>
+						</span>
+						<del class="tag-price">￥268.00</del>
+						<span class="sale">
+							<i class="f1">4</i>
+							<i class="f3">.5</i>
+							<i class="f4">折</i></span>
+					</div>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<img src="images/zs3.webp" alt="">
+					<div class="prices">
+						<span class="gb-price">￥43.
+							<i class="f0">00</i>
+						</span>
+						<del class="tag-price">￥678.00</del>
+						<span class="sale">
+							<i class="f1">8</i>
+							<i class="f3">.0</i>
+							<i class="f4">折</i></span>
+					</div>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<img src="images/zs4.webp" alt="">
+					<div class="prices">
+						<span class="gb-price">￥63.
+							<i class="f0">00</i>
+						</span>
+						<del class="tag-price">￥38.00</del>
+						<span class="sale">
+							<i class="f1">9</i>
+							<i class="f3">.0</i>
+							<i class="f4">折</i></span>
+					</div>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<img src="images/zs5.webp" alt="">
+					<div class="prices">
+						<span class="gb-price">￥453.
+							<i class="f0">00</i>
+						</span>
+						<del class="tag-price">￥58.00</del>
+						<span class="sale">
+							<i class="f1">2</i>
+							<i class="f3">.0</i>
+							<i class="f4">折</i></span>
+					</div>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<img src="images/zs6.webp" alt="">
+					<div class="prices">
+						<span class="gb-price">￥453.
+							<i class="f0">00</i>
+						</span>
+						<del class="tag-price">￥68.00</del>
+						<span class="sale">
+							<i class="f1">4</i>
+							<i class="f3">.0</i>
+							<i class="f4">折</i></span>
+					</div>
+				</a>
+			</li>
+		</ul>
+	</div>
+</div>
+
+<!-- 新欢 -->
+<div class="v5-2big">
 	<a href="#">
-		<img src="images/btn.png" alt="">
+		<img src="images/146252893910905315.webp" alt="">
+	</a>
+	<a href="#">
+		<img src="images/146253404381677598.webp" alt="">
 	</a>
 </div>
+<div class="v5-2middle v5-2big">
+	<a href="#">
+		<img src="images/146253191218552009.webp" alt="">
+	</a>
+	<a href="#">
+		<img src="images/146253712103214572.webp" alt="">
+	</a>
+</div>
+
+<!-- 精编 -->
+<div class="v5-title">
+	<img src="images/145914591429836587.png" alt="">
+</div>
+
+<div class="v5-l1t1b2">
+	<a href="#">
+		<img src="images/146261551209555123.webp" alt="">
+	</a>
+	<div>
+		<a href="">
+			<img src="images/146241745430763786.webp" alt="">
+		</a>
+		<a href="#">
+			<img src="images/146250051521308564.webp" alt="">
+		</a>
+		<a href="#">
+			<img src="images/146183169072412954.webp" alt="">
+		</a>
+	</div>
+</div>
+
+<!-- 轮播2 -->
+<div class="v5-space"></div>
+<div class="lunbo1">
+	<div class="swiper-container">
+	    <div class="swiper-wrapper">
+	        <div class="swiper-slide">
+				<img src="images/146243487582498273.jpg" alt="">
+	        </div>
+	        <div class="swiper-slide">
+	        	<img src="images/146258601579424750.webp" alt="">
+	        </div>
+	    </div>
+	    <!-- Add Pagination -->
+	    <div class="swiper-pagination btn1"></div>
+	</div>
+</div>
+<div class="v5-space"></div>
+
+<!-- 特色好货 -->
+<div class="v5-title">
+	<img src="images/tese.png" alt="">
+</div>
+
+<div class="v5-l1t1b1">
+	<a href="#">
+		<img src="images/te1.webp" alt="">
+	</a>
+	<div class="te1">
+		<a href="#">
+			<img src="images/te2.webp" alt="">
+		</a>
+		<a href="#">
+			<img src="images/te3.webp" alt="">
+		</a>
+	</div>
+</div>
+<div class="v5-2small">
+	<a href="#"><img src="images/san1.webp"></a>
+	<a href="#"><img src="images/san2.webp"></a>
+</div>
+<div class="v5-2small">
+	<a href="#"><img src="images/san3.webp"></a>
+	<a href="#"><img src="images/san4.webp"></a>
+</div>
+<div class="v5-2small">
+	<a href="#"><img src="images/san5.webp"></a>
+	<a href="#"><img src="images/san6.webp"></a>
+</div>
+
+
+<!-- 轮播3 -->
+<div class="v5-space"></div>
+<div class="lunbo1">
+	<div class="swiper-container">
+	    <div class="swiper-wrapper">
+	        <div class="swiper-slide">
+				<img src="images/l1.webp" alt="">
+	        </div>
+	        <div class="swiper-slide">
+				<img src="images/l1.jpg" alt="">
+	        </div>
+	        <div class="swiper-slide">
+	        	<img src="images/9k=.jpg" alt="">
+	        </div>
+	    </div>
+	    <!-- Add Pagination -->
+	    <div class="swiper-pagination btn1"></div>
+	</div>
+</div>
+<div class="v5-space"></div>
+
+
+<!-- 热门市场 -->
+<div class="v5-title">
+	<img src="images/remen.png" alt="">
+</div>
+
+<div class="re">
+	<a href="#"><img src="images/re1.webp" alt=""></a>
+	<a href="#"><img src="images/re2.webp" alt=""></a>
+</div>
+
+<ul class="hor-view1">
+	<li><img src="images/fu1.webp" alt=""></li>
+	<li><img src="images/fu2.webp" alt=""></li>
+	<li><img src="images/fu3.webp" alt=""></li>
+</ul>
+<ul class="hor-view1">
+	<li><img src="images/fu4.jpg" alt=""></li>
+	<li><img src="images/fu5.webp" alt=""></li>
+	<li><img src="images/fu6.webp" alt=""></li>
+</ul>
+<ul class="hor-view1">
+	<li><img src="images/fu7.webp" alt=""></li>
+	<li><img src="images/fu8.webp" alt=""></li>
+	<li><img src="images/fu9.webp" alt=""></li>
+</ul>
+<ul class="hor-view1">
+	<li><img src="images/fu10.webp" alt=""></li>
+	<li><img src="images/fu11.webp" alt=""></li>
+	<li><img src="images/fu12.webp" alt=""></li>
+</ul>
+
+
+<!-- 精品荟萃 -->
+<div class="v5-space"></div>
+<div class="v5-title">
+	<img src="images/pin.png" alt="">
+</div>
+
+<div class="pin border">
+	<a href="#" class="br"><img src="images/pin1.webp" alt=""></a>
+	<div>
+		<a href="#" class="br">
+			<img src="images/pin2.webp" alt="">
+		</a>
+		<a href="#">
+			<img src="images/pin3.webp" alt="">
+		</a>
+	</div>
+</div>
+<div class="v5-space"></div>
+
+<!-- 苏宁景荣 -->
+<div class="v5-title">
+	<img src="images/jr.png" alt="">
+</div>
+
+<div class="v5-l1t1b1">
+	<a href="#">
+		<img src="images/jr1.webp" alt="">
+	</a>
+	<div class="te1">
+		<a href="#" class="br">
+			<img src="images/jr2.webp" alt="">
+		</a>
+		<a href="#">
+			<img src="images/jr3.webp" alt="">
+		</a>
+	</div>
+</div>
+
+<!-- 好店推介	 -->
+<div class="v5-space"></div>
+<div class="v5-title">
+	<img src="images/tj.png" alt="">
+</div>
+
+<!-- ；轮播3 -->
+<div class="swipe-ul">
+	<div class="swiper-container">
+	    <div class="swiper-wrapper">
+	        <div class="swiper-slide">
+				<li>
+					<a href="#">
+						<div class="t"> 
+							<img class="opa1" src="images/yin1.webp"> 
+							<div class="wrap">
+								<span>美食控</span>
+								<span class="des">就是这个滋味</span>
+							</div> 
+						</div>
+						<div class="b">
+							<img src="images/mei1.webp" alt="">
+							<div class="hor-gap"></div>
+							<div class="r1">
+								<img src="images/mei2.jpg" alt="" class="boder">
+								<div class="ver-gap"></div>
+								<img src="images/mei2.jpg" alt="" class="boder">
+							</div>
+						</div>
+					</a>
+					<a href="#">
+						<div class="t"> 
+							<img class="opa1" src="images/yin1.webp"> 
+							<div class="wrap">
+								<span>美食控</span>
+								<span class="des">就是这个滋味</span>
+							</div> 
+						</div>
+						<div class="b">
+							<img src="images/mei1.webp" alt="">
+							<div class="hor-gap"></div>
+							<div class="r1">
+								<img src="images/mei2.jpg" alt="" class="boder">
+								<div class="ver-gap"></div>
+								<img src="images/mei2.jpg" alt="" class="boder">
+							</div>
+						</div>
+					</a>
+				</li>
+	        </div>
+	        <div class="swiper-slide">
+	        	<li>
+					<a href="#">
+						<div class="t"> 
+							<img class="opa1" src="images/yin1.webp"> 
+							<div class="wrap">
+								<span>美食控</span>
+								<span class="des">就是这个滋味</span>
+							</div> 
+						</div>
+						<div class="b">
+							<img src="images/mei1.webp" alt="">
+							<div class="hor-gap"></div>
+							<div class="r1">
+								<img src="images/mei2.jpg" alt="" class="boder">
+								<div class="ver-gap"></div>
+								<img src="images/mei2.jpg" alt="" class="boder">
+							</div>
+						</div>
+					</a>
+					<a href="#">
+						<div class="t"> 
+							<img class="opa1" src="images/yin1.webp"> 
+							<div class="wrap">
+								<span>美食控</span>
+								<span class="des">就是这个滋味</span>
+							</div> 
+						</div>
+						<div class="b">
+							<img src="images/mei1.webp" alt="">
+							<div class="hor-gap"></div>
+							<div class="r1">
+								<img src="images/mei2.jpg" alt="" class="boder">
+								<div class="ver-gap"></div>
+								<img src="images/mei2.jpg" alt="" class="boder">
+							</div>
+						</div>
+					</a>
+				</li>
+	        </div>
+	        <div class="swiper-slide">
+				<li>
+					<a href="#">
+						<div class="t"> 
+							<img class="opa1" src="images/yin1.webp"> 
+							<div class="wrap">
+								<span>美食控</span>
+								<span class="des">就是这个滋味</span>
+							</div> 
+						</div>
+						<div class="b">
+							<img src="images/mei1.webp" alt="">
+							<div class="hor-gap"></div>
+							<div class="r1">
+								<img src="images/mei2.jpg" alt="" class="boder">
+								<div class="ver-gap"></div>
+								<img src="images/mei2.jpg" alt="" class="boder">
+							</div>
+						</div>
+					</a>
+					<a href="#">
+						<div class="t"> 
+							<img class="opa1" src="images/yin1.webp"> 
+							<div class="wrap">
+								<span>美食控</span>
+								<span class="des">就是这个滋味</span>
+							</div> 
+						</div>
+						<div class="b">
+							<img src="images/mei1.webp" alt="">
+							<div class="hor-gap"></div>
+							<div class="r1">
+								<img src="images/mei2.jpg" alt="" class="boder">
+								<div class="ver-gap"></div>
+								<img src="images/mei2.jpg" alt="" class="boder">
+							</div>
+						</div>
+					</a>
+				</li>
+	        </div>
+	    </div>
+	    <!-- Add Pagination -->
+	    <div class="swiper-pagination btn3"></div>
+	</div>
+</div>
+
+<!-- 猜你喜欢 -->
+<div class="v5-title aa">
+	<img src="images/cai.png" alt="">
+</div>
+
+<div class="app34">
+	<ul>
+		<li class="pro-item">
+			<a href=""><img src="images/ts1.webp" alt=""></a>
+			<div class="info-bar">
+				 <div class="pro-title">御泥坊平衡矿物黑面膜21片（送7丝面膜 共28片）
+				 </div> 
+				 <span class="e-price">￥79.90</span>
+			</div>
+		</li>
+		<li class="pro-item">
+			<a href=""><img src="images/ts1.webp" alt=""></a>
+			<div class="info-bar">
+				 <div class="pro-title">御泥坊平衡矿物黑面膜21片（送7丝面膜 共28片）
+				 </div> 
+				 <span class="e-price">￥79.90</span>
+			</div>
+		</li>
+	</ul>
+	<ul>
+		<li class="pro-item">
+			<a href=""><img src="images/ts1.webp" alt=""></a>
+			<div class="info-bar">
+				 <div class="pro-title">御泥坊平衡矿物黑面膜21片（送7丝面膜 共28片）
+				 </div> 
+				 <span class="e-price">￥79.90</span>
+			</div>
+		</li>
+		<li class="pro-item">
+			<a href=""><img src="images/ts1.webp" alt=""></a>
+			<div class="info-bar">
+				 <div class="pro-title">御泥坊平衡矿物黑面膜21片（送7丝面膜 共28片）
+				 </div> 
+				 <span class="e-price">￥79.90</span>
+			</div>
+		</li>
+	</ul>
+	<ul>
+		<li class="pro-item">
+			<a href=""><img src="images/ts1.webp" alt=""></a>
+			<div class="info-bar">
+				 <div class="pro-title">御泥坊平衡矿物黑面膜21片（送7丝面膜 共28片）
+				 </div> 
+				 <span class="e-price">￥79.90</span>
+			</div>
+		</li>
+		<li class="pro-item">
+			<a href=""><img src="images/ts1.webp" alt=""></a>
+			<div class="info-bar">
+				 <div class="pro-title">御泥坊平衡矿物黑面膜21片（送7丝面膜 共28片）
+				 </div> 
+				 <span class="e-price">￥79.90</span>
+			</div>
+		</li>
+	</ul>
+	<ul>
+		<li class="pro-item">
+			<a href=""><img src="images/ts1.webp" alt=""></a>
+			<div class="info-bar">
+				 <div class="pro-title">御泥坊平衡矿物黑面膜21片（送7丝面膜 共28片）
+				 </div> 
+				 <span class="e-price">￥79.90</span>
+			</div>
+		</li>
+		<li class="pro-item">
+			<a href=""><img src="images/ts1.webp" alt=""></a>
+			<div class="info-bar">
+				 <div class="pro-title">御泥坊平衡矿物黑面膜21片（送7丝面膜 共28片）
+				 </div> 
+				 <span class="e-price">￥79.90</span>
+			</div>
+		</li>
+	</ul>
+	<ul>
+		<li class="pro-item">
+			<a href=""><img src="images/ts1.webp" alt=""></a>
+			<div class="info-bar">
+				 <div class="pro-title">御泥坊平衡矿物黑面膜21片（送7丝面膜 共28片）
+				 </div> 
+				 <span class="e-price">￥79.90</span>
+			</div>
+		</li>
+		<li class="pro-item">
+			<a href=""><img src="images/ts1.webp" alt=""></a>
+			<div class="info-bar">
+				 <div class="pro-title">御泥坊平衡矿物黑面膜21片（送7丝面膜 共28片）
+				 </div> 
+				 <span class="e-price">￥79.90</span>
+			</div>
+		</li>
+	</ul>
+	<ul>
+		<li class="pro-item">
+			<a href=""><img src="images/ts1.webp" alt=""></a>
+			<div class="info-bar">
+				 <div class="pro-title">御泥坊平衡矿物黑面膜21片（送7丝面膜 共28片）
+				 </div> 
+				 <span class="e-price">￥79.90</span>
+			</div>
+		</li>
+		<li class="pro-item">
+			<a href=""><img src="images/ts1.webp" alt=""></a>
+			<div class="info-bar">
+				 <div class="pro-title">御泥坊平衡矿物黑面膜21片（送7丝面膜 共28片）
+				 </div> 
+				 <span class="e-price">￥79.90</span>
+			</div>
+		</li>
+	</ul>
+	<ul>
+		<li class="pro-item">
+			<a href=""><img src="images/ts1.webp" alt=""></a>
+			<div class="info-bar">
+				 <div class="pro-title">御泥坊平衡矿物黑面膜21片（送7丝面膜 共28片）
+				 </div> 
+				 <span class="e-price">￥79.90</span>
+			</div>
+		</li>
+		<li class="pro-item">
+			<a href=""><img src="images/ts1.webp" alt=""></a>
+			<div class="info-bar">
+				 <div class="pro-title">御泥坊平衡矿物黑面膜21片（送7丝面膜 共28片）
+				 </div> 
+				 <span class="e-price">￥79.90</span>
+			</div>
+		</li>
+	</ul>
+	<ul>
+		<li class="pro-item">
+			<a href=""><img src="images/ts1.webp" alt=""></a>
+			<div class="info-bar">
+				 <div class="pro-title">御泥坊平衡矿物黑面膜21片（送7丝面膜 共28片）
+				 </div> 
+				 <span class="e-price">￥79.90</span>
+			</div>
+		</li>
+		<li class="pro-item">
+			<a href=""><img src="images/ts1.webp" alt=""></a>
+			<div class="info-bar">
+				 <div class="pro-title">御泥坊平衡矿物黑面膜21片（送7丝面膜 共28片）
+				 </div> 
+				 <span class="e-price">￥79.90</span>
+			</div>
+		</li>
+	</ul>
+	<ul>
+		<li class="pro-item">
+			<a href=""><img src="images/ts1.webp" alt=""></a>
+			<div class="info-bar">
+				 <div class="pro-title">御泥坊平衡矿物黑面膜21片（送7丝面膜 共28片）
+				 </div> 
+				 <span class="e-price">￥79.90</span>
+			</div>
+		</li>
+		<li class="pro-item">
+			<a href=""><img src="images/ts1.webp" alt=""></a>
+			<div class="info-bar">
+				 <div class="pro-title">御泥坊平衡矿物黑面膜21片（送7丝面膜 共28片）
+				 </div> 
+				 <span class="e-price">￥79.90</span>
+			</div>
+		</li>
+	</ul>
+	<ul>
+		<li class="pro-item">
+			<a href=""><img src="images/ts1.webp" alt=""></a>
+			<div class="info-bar">
+				 <div class="pro-title">御泥坊平衡矿物黑面膜21片（送7丝面膜 共28片）
+				 </div> 
+				 <span class="e-price">￥79.90</span>
+			</div>
+		</li>
+		<li class="pro-item">
+			<a href=""><img src="images/ts1.webp" alt=""></a>
+			<div class="info-bar">
+				 <div class="pro-title">御泥坊平衡矿物黑面膜21片（送7丝面膜 共28片）
+				 </div> 
+				 <span class="e-price">￥79.90</span>
+			</div>
+		</li>
+	</ul>
+</div>
+
+<!-- 结束 -->
+<footer class="bb">
+	<a href="#">
+		<img src="images/xiazai.webp" alt="">
+	</a>
+</footer>
+
+
+
+<script>
+var swiper = new Swiper('.swiper-container', {
+    pagination: '.swiper-pagination',
+    slidesPerView: 1,
+    paginationClickable: true,
+    centeredSlides: true,
+    autoplay: 2500,
+    autoplayDisableOnInteraction: false,
+    spaceBetween: 0,
+    loop: true
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </body>
 </html>
